@@ -28,7 +28,7 @@ const About = () => {
           <motion.div
             variants={plateVariants}
 
-            className=' -mb-[300px] -mr-[186px] z-10 max-w-[95%]
+            className=' -mb-[300px] -mr-[50px] z-10 max-w-[95%] lg:-mr-[186px] 
  '>
             <img src={image} alt="" />
           </motion.div>
