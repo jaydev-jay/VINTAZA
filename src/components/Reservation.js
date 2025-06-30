@@ -8,7 +8,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import 'react-time-picker/dist/TimePicker.css';
 import '../timepicker.css'
-import {FaUsers, FaCalendar, FaClock, FaCcDiscover} from 'react-icons/fa'
+import {FaUsers, FaCalendar, FaClock} from 'react-icons/fa'
 import {motion } from 'framer-motion'
 import {fadeIn, staggerContainer} from '../variants'
 
@@ -17,7 +17,7 @@ const Reservation = () => {
   const [startDate, setStartDate] = useState(new Date())  
   const [value, setValue] = useState('10:00')
   return (
-    <section className=' relative top-96 z-30 pb-20 lg:py-[100px]  '>
+    <section id='book-a-table' className=' relative top-96 z-30 pb-20 lg:py-[100px]  '>
       <div className="container mx-auto">
         {/* text */}
         <motion.div 

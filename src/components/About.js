@@ -6,7 +6,7 @@ import {plateVariants,staggerContainer,fadeIn} from '../variants'
 const About = () => {
   const {pretitle,title,subtitle,image,btnText} =aboutData
   return (
-    <section className=' min-h-[620px]' >
+    <section id='about' className=' min-h-[620px]' >
       <div className="container mx-auto min-h-[620px]">
         {/* text,image wraper*/}
         <motion.div 

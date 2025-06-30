@@ -11,7 +11,7 @@ import Newsletter from './Newsletter'
 const Footer = () => {
   const {contact, hours,social,} =footerData
   return (
-    <footer className=' relative top-96 z-20 bg-dark lg:bg-transparent lg:min-h-[620px] lg:bg-footer lg:bg-center lg:bg-no-repeat pt-20 lg:pt-32'>
+    <footer id='contact' className=' relative top-96 z-20 bg-dark lg:bg-transparent lg:min-h-[620px] lg:bg-footer lg:bg-center lg:bg-no-repeat pt-20 lg:pt-32'>
       <div className="container mx-auto h-full ">
         {/* news latter &info */}
         <motion.div variants={staggerContainer}

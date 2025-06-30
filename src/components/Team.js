@@ -5,7 +5,7 @@ import {fadeIn} from '../variants'
 
 const Team = () => {
   const {pretitle, sub1, sub2, title, name, occupation, signatureImg, chefImg}=teamData
-  return( <section 
+  return( <section id='team'
     className=' relative top-96 z-10 lg:top-[480px] min-h-[720px] '
     >
       <div className='container mx-auto'>
